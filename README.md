@@ -75,7 +75,7 @@ Atributos foram definidos como privados e acessados por métodos apropriados.
 1. Clone o repositório:
 
 ```bash
-git clone <link-do-repositorio>
+git clone https://github.com/anne-avila/POO.git
 ```
 
 2. Acesse a pasta do projeto:
