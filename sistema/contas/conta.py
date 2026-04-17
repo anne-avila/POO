@@ -1,5 +1,5 @@
 class Conta:  # Classe Base para as contas.
-    def __init__(self, cliente, numero)  # Init básico da classe base.
+    def __init__(self, cliente, numero):  # Init básico da classe base.
         self._cliente = cliente
         self._numero = numero
         self._saldo = 0
@@ -18,9 +18,13 @@ class Conta:  # Classe Base para as contas.
         raise NotImprementedError
 
     
-    def get_saldo(self):  # Getter do Saldo.
+    def get_saldo(self):
         return self._saldo
 
     
-    def get_historico(self):  # Getter do Historico.
+    def get_historico(self):  
         return self._historico
+
+    
+    def get_numero(self):
+        return self._numero

@@ -7,4 +7,4 @@ class ContaPoupanca(Conta):
             self._saldo -= valor
             self._historico.append(f"Saque: {valor}.")
         else:
-            print("Saque não permitido.")
+            print("Saque não permitido. Valor limite de R$ 1000 por saque.")
